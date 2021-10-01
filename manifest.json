@@ -1,0 +1,13 @@
+{
+    "name": "Spacecamp",
+    "version": "1.0",
+    "description": "make space bar play music on bandcamp",
+    "manifest_version": 2,
+    "content_scripts":[{
+        "js": ["content.js"],
+        "matches": [ "https://*.bandcamp.com/*" ]
+    }],
+    "browser_action": {
+        "default_icon": {}
+    }
+  }
